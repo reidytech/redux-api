@@ -1,0 +1,30 @@
+{
+    "parser": "babel-eslint",
+    "extends": [
+      "prettier",
+      "prettier/react"
+    ],
+    "plugins": ["prettier"],
+    "parserOptions": {
+      "ecmaVersion": 2016,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "es6": true,
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "indent": ["error", "tab"],
+      "linebreak-style": ["error", "unix"],
+      "semi": ["error", "never"],
+      "comma-dangle": ["error", "never"]
+    },
+    "globals": {
+      "DEBUG": false
+    }
+  }
+  
